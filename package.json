@@ -2,26 +2,20 @@
   "name": "envsense",
   "displayName": "Env Sense",
   "description": "Autocompletes process.env with variables from your .env file",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.59.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Visualization"
   ],
   "activationEvents": [
     "onLanguage:typescript",
     "onLanguage:javascript"
   ],
   "main": "./dist/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "envsense.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
