@@ -15,6 +15,18 @@
     "onLanguage:typescript",
     "onLanguage:javascript"
   ],
+  "contributes": {
+    "configuration": {
+      "title": "Env Sense",
+      "properties": {
+        "envSense.ignoreDefaults": {
+          "type": "boolean",
+          "default": true,
+          "description": "Only shows values from .env files in process.env and not system environment variables"
+        }
+      }
+    }
+  },
   "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "yarn run package",
