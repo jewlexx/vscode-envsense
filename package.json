@@ -29,6 +29,10 @@
     }
   },
   "main": "./dist/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesinaxx/vscode-envsense.git"
+  },
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
