@@ -4,6 +4,7 @@
   "description": "Adds variables from .env files to process.env autocomplete",
   "version": "1.0.0",
   "license": "MIT",
+  "publisher": "jamesinaxx",
   "engines": {
     "vscode": "^1.38.0"
   },
