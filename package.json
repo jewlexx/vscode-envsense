@@ -1,11 +1,11 @@
 {
   "name": "envsense",
   "displayName": "Env Sense",
-  "description": "Autocompletes process.env with variables from your .env file",
+  "description": "Adds variables from .env files to process.env autocomplete",
   "version": "1.0.0",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.59.0"
+    "vscode": "^1.38.0"
   },
   "categories": [
     "Other",
