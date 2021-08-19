@@ -4,13 +4,11 @@
 
 Simply adds all the variables from your .env file to `process.env` autocomplete.
 
-\!\[feature X\]\(images/feature-x.png\)
+![Display of how it works](images/usage.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requirements
 
-<!-- ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them. -->
+* VSCode v1.38.0 or later
 
 ## Extension Settings
 
